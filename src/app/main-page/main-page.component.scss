@@ -1,0 +1,17 @@
+section {
+    width: 100vw;
+    background-color: beige;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.love-yourself-text {
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 7em;
+    margin-top: 50vh;
+    font-family: jonathan;
+    color: rgb(110, 2, 2);
+}

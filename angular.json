@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "balans-studio"
+    }
+  },
+  "defaultProject": "balans-studio",
+  "cli": {
+    "analytics": "6a43f542-ed05-4a8e-b85a-4632d793c615"
+  }
 }

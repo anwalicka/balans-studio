@@ -1,0 +1,34 @@
+nav {
+    padding-top: 1%;
+}
+
+.title,
+.subtitle {
+    display: flex;
+    justify-content: center;
+    font-family: now;
+    font-size: 2.4em;
+    color: rgb(255, 255, 255);
+}
+
+.subtitle {
+    font-family: now-thin;
+    font-size: 1.6em;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(214, 214, 214);
+    font-family: now;
+}
+
+.list-item {
+    width: 15%;
+    padding: 2%;
+    text-align: center;
+}
