@@ -1,4 +1,4 @@
-<nav>
+<nav [ngClass]="{'background-color--burlywood':  styleClass === 'aboutMe'}">
     <div class="title">
         <p>balans</p>
     </div>
@@ -6,11 +6,11 @@
         <p>studio</p>
     </div>
     <ul class="list">
-        <li class="list-item"> <span>Strona główna</span></li>
-        <li class="list-item"><span>O mnie</span></li>
-        <li class="list-item"><span>Warsztaty pięknego ciała</span></li>
-        <li class="list-item"><span>Warsztaty stania na rękach</span></li>
-        <li class="list-item"><span>Warsztaty akrobatyki</span></li>
-        <li class="list-item"><span>Kontakt</span></li>
+        <li class="list-item" [routerLink]="'/main'"><span [ngClass]="{'text-color': styleClass === 'aboutMe'}">Strona główna</span></li>
+        <li class="list-item" [routerLink]="'/about-me'"><span [ngClass]="{'text-color active': styleClass === 'aboutMe'}">O mnie</span></li>
+        <li class="list-item"><span [ngClass]="{'text-color': styleClass === 'aboutMe'}">Warsztaty pięknego ciała</span></li>
+        <li class="list-item"><span [ngClass]="{'text-color': styleClass === 'aboutMe'}">Warsztaty stania na rękach</span></li>
+        <li class="list-item"><span [ngClass]="{'text-color': styleClass === 'aboutMe'}">Warsztaty akrobatyki</span></li>
+        <li class="list-item"><span [ngClass]="{'text-color': styleClass === 'aboutMe'}">Kontakt</span></li>
     </ul>
 </nav>

@@ -31,4 +31,20 @@ nav {
     width: 15%;
     padding: 2%;
     text-align: center;
+    cursor: pointer;
+}
+
+
+.background-color--burlywood {
+    background-color: #e8cfdb;
+}
+
+.text-color {
+    color: rgb(110, 2, 2);
+}
+
+.active {
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    color: white;
 }

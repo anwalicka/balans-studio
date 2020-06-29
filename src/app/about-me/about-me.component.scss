@@ -1,0 +1,21 @@
+.about-me-bg {
+    min-height: 100vh;
+    background-color: #e8cfdb;
+}
+
+.about-me-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 5%;
+    max-height: 100%;
+}
+
+.about-me-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-text {
+    width: 60%;
+}
